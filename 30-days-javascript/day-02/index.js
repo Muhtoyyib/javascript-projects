@@ -2,9 +2,9 @@
 let challenge = '30 Days Of JavaScript';
 console.log(challenge);
 console.log(challenge.length);
-challenge.toUpperCase;
-challenge.toLowerCase;
-console.log(challenge.substring(0, 3));
+challenge.toUpperCase();
+challenge.toLowerCase();
+console.log(challenge.substring(0, 2));
 console.log(challenge.substr(0, 1));
 console.log(challenge.substring(3,22 ));
 console.log(challenge.includes('Script'));
