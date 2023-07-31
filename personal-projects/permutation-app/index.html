@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Home | Permutation & Combination</title>
+</head>
+<body>
+    <div class="container-fluid center">
+
+        <div class="row">
+            <div class="col">
+                <h1 class="text-center text-white">Do you know what is <Strong>Permutation</Strong> and <strong>Combination</strong>?</h1><br>
+                <hr>
+            </div> <!-- col div-->
+        </div><!--row div-->
+
+        <div class="row">
+            <div class="col-8 offset-2">
+                <h2 class="text-white">Permutation</h2>
+                <p class="text-info">A permutation is an arrangement in a definite order of several objects taken, some or all at a time, with permutations, every tiny detail matters. It means the order in which elements are arranged is significant.</p><br>
+                <button class="solve" onclick="displayPermutation()">Solve question</button>
+                <button class="solve" onclick="hidePermutation()">hide</button>
+            </div>
+
+            <div class="jumbotron offset-sm-1 offset-md-2 d-none" id="permSol">
+
+                <div class="row">
+                    
+                    <div class="col-8">
+                        <h2>Permutation</h2><br>
+                        <label for="n">If n =</label>
+                        <input type="text" id="n" placeholder="input n"><br>
+                        <label for="r">and r =</label>
+                        <input type="text" id="r" placeholder="input r"> 
+                        
+                        <button type="button" class="mt-2 solve" onclick="permutation()">Permute</button>
+                    </div>
+        
+                     
+                    <div class="col-4">
+                    <p>The ans is: <b id="ans" class="text-success"></b></p>
+                    </div>
+        
+                </div>
+                
+               
+            </div>
+        
+        </div>
+
+        <div class="row">
+            <div class="col-8 offset-2">
+                <h2 class="text-white">Combintion</h2>
+                <p class="text-info">The combination is a way of selecting elements from a set so that the order of selection doesn’t matter. With the combination, only choosing elements matters. It means the order in which elements are chosen is not essential.</p>
+                <button class="solve" onclick="displayCombination()">Solve question</button>
+                <button class="solve" onclick="hideCombination()">hide</button>
+            </div>
+
+            <div class="jumbotron offset-sm-1 offset-md-2 d-none" id="combSol">
+                <div class="row">
+                    <div class="col-8">
+                        <h2>Combination</h2><br>
+                        <label for="n">If n =</label>
+                        <input type="text" id="nC" placeholder="input n"><br>
+                        <label for="r">and r =</label>
+                        <input type="text" id="rC" placeholder="input r">
+                        
+                        <button type="button" class="mt-2 solve" onclick="combination()">Combine</button>
+                        
+                    </div>
+        
+                    
+        
+        
+                     
+                    <div class="col-4">
+                    <p>The ans is: <b id="ansC" class="text-success"></b></p>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+
+
+       
+
+        
+ 
+ 
+
+
+
+
+
+        <div class="footer">
+            <div class="row">
+                <div class="col">
+                    <p class="text-white text-center">Contact me on any of these media for any question(s) or collaboration(s): <a href="https://twitter.com/devtoheeb" target="_blank">Twitter</a> and<a href="https://www.linkedin.com/notifications/" target="_blank">LinkedIn</a> </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+        
+       
+    
+   
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

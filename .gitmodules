@@ -1,0 +1,6 @@
+[submodule "personal-projects/checkBestStudent"]
+	path = personal-projects/checkBestStudent
+	url = https://github.com/Muhtoyyib/checkBestStudent
+[submodule "personal-projects/solveIt"]
+	path = personal-projects/solveIt
+	url = https://github.com/Muhtoyyib/solveIt
