@@ -7,3 +7,6 @@
 [submodule "30-days-javascript"]
 	path = 30-days-javascript
 	url = https://github.com/Muhtoyyib/30-days-javascript
+[submodule "personal-projects/permutation-and-combination"]
+	path = personal-projects/permutation-and-combination
+	url = https://github.com/Muhtoyyib/permutation-and-combination.git
